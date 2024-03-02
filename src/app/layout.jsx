@@ -14,9 +14,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <nav>
           <ul>
+            
             <li><Link href="/users">Usuarios</Link></li>  
-            <li><Link href="/sobre">Sobre</Link></li>  
-            <li><Link href="/contato">Contate-me</Link></li>  
+            <li><Link href="/about">Sobre</Link></li>  
+            <li><Link href="/contact">Contate-me</Link></li>  
           </ul>
         </nav>
         {children}</body>
